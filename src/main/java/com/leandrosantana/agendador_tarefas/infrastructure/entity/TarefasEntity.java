@@ -5,7 +5,6 @@ import com.leandrosantana.agendador_tarefas.infrastructure.enums.StatusNotificac
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 //Anotações para Mongo DB
