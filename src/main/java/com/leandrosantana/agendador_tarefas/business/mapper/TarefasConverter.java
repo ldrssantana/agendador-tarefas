@@ -11,9 +11,10 @@ import java.util.List;
 public interface TarefasConverter {
 
     //Forcar, sendo o source para o TarefasEntity e o target para DTO.
-    @Mapping(source = "id" , target = "id")
-    @Mapping(source = "dataEvento" , target = "dataEvento")
-    @Mapping(source = "dataAlteracao" , target = "dataAlteracao")
+    //O Build no Gradle as pode relatar que existe, e nesse caso será necessário excluir.
+    //@Mapping(source = "id" , target = "id")
+    //@Mapping(source = "dataEvento" , target = "dataEvento")
+   // @Mapping(source = "dataAlteracao" , target = "dataAlteracao")
 
 
     TarefasEntity paraTarefaEntity(TarefasDTO dto);
